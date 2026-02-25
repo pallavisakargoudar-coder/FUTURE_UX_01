@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Services - SmileCare Dental</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .services {
+            padding: 60px 10%;
+            text-align: center;
+            background: #f4f8fc;
+        }
+
+        .services h2 {
+            margin-bottom: 40px;
+            font-size: 28px;
+        }
+
+        .service-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .service-card {
+            background: #ffffff;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            transition: 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+
+        .service-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .service-card h3 {
+            margin: 15px 0 10px;
+        }
+
+        .service-card p {
+            padding: 0 15px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .book-btn {
+            display: inline-block;
+            margin: 15px 0 20px;
+            padding: 8px 20px;
+            background: #0B1C3D;
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .book-btn:hover {
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SmileCare Dental</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="services">
+    <h2>Our Dental Services</h2>
+
+    <div class="service-container">
+
+        <div class="service-card">
+            <img src="cleaning.jpg">
+            <h3>Teeth Cleaning</h3>
+            <p>Professional cleaning to maintain healthy teeth.</p>
+            <a href="contact.html" class="book-btn">Book Now</a>
+        </div>
+
+        <div class="service-card">
+            <img src="braces.jpg">
+            <h3>Dental Braces</h3>
+            <p>Modern braces treatment for perfect alignment.</p>
+            <a href="contact.html" class="book-btn">Book Now</a>
+        </div>
+
+        <div class="service-card">
+            <img src="rootcanal.jpg">
+            <h3>Root Canal Treatment</h3>
+            <p>Painless root canal using advanced technology.</p>
+            <a href="contact.html" class="book-btn">Book Now</a>
+        </div>
+
+        <div class="service-card">
+            <img src="whitening.jpg">
+            <h3>Teeth Whitening</h3>
+            <p>Brighten your smile safely and effectively.</p>
+            <a href="contact.html" class="book-btn">Book Now</a>
+        </div>
+
+        <div class="service-card">
+            <img src="implants.jpg">
+            <h3>Dental Implants</h3>
+            <p>Permanent solution for missing teeth.</p>
+            <a href="contact.html" class="book-btn">Book Now</a>
+        </div>
+
+        <div class="service-card">
+            <img src="pediatric.jpg">
+            <h3>Child Dental Care</h3>
+            <p>Routine checkups for better oral health.</p>
+            <a href="contact.html" class="book-btn">Book Now</a>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>
