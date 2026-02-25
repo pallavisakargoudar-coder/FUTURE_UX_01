@@ -73,4 +73,7 @@ The design focuses on clarity, trust-building, and easy appointment booking flow
 
 ---
 
-## 📂 Project Structure
+
+<img width="1208" height="2340" alt="_C__wamp64_www_smilecare-dental_index html" src="https://github.com/user-attachments/assets/2ddebd80-42c2-49d1-a789-9ef62255b605" />
+<img width="1208" height="1875" alt="_C__wamp64_www_smilecare-dental_services html" src="https://github.com/user-attachments/assets/8f8d2688-d9a7-4245-936a-671c3a6b7dab" />
+<img width="1226" height="921" alt="_C__wamp64_www_smilecare-dental_contact html" src="https://github.com/user-attachments/assets/73ad520c-20f1-479b-aa57-c7e5b9fd8367" />
